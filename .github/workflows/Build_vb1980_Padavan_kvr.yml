@@ -282,7 +282,7 @@ jobs:
         echo "CONFIG_FIRMWARE_INCLUDE_NAPT66=n" >> .config
         #NANO CURL
         echo "CONFIG_FIRMWARE_INCLUDE_NANO=y" >> .config
-        echo "CONFIG_FIRMWARE_INCLUDE_CURL=Y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_CURL=y" >> .config
         
         #校园网相关结束
         #########################################################################################
