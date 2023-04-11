@@ -45,7 +45,7 @@ on:
       firmwarever:
         description: 'firmware''s version'
         required: true
-        default: '20221108'
+        default: $(date +"%Y%m%d")
       busyboxver:
         type: choice
         description: 'busybox''s version'
