@@ -56,7 +56,7 @@ on:
       formlogin:
         type: boolean
         description: 'whether enable formlogin instead of dialoglogin'
-        default: 'false'
+        default: 'true'
       ssp:
         type: boolean
         description: 'whether to apply the patch for download ssp bin from local or remote url'
