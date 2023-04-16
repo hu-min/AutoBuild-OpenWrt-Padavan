@@ -208,6 +208,7 @@ jobs:
         sed -i '/CONFIG_FIRMWARE_INCLUDE_MICROSOCKS/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_CURL/d' .config
         sed -i '/CONFIG_FIRMWARE_INCLUDE_NANO/d' .config
+        sed -i '/CONFIG_FIRMWARE_INCLUDE_JQ/d' .config
         #下载功能
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ARIA/d' .config #删除配置项aria
         sed -i '/CONFIG_FIRMWARE_INCLUDE_ARIA_WEB_CONTROL/d' .config #删除配置项aria网页控制台
@@ -283,6 +284,7 @@ jobs:
         #NANO CURL
         echo "CONFIG_FIRMWARE_INCLUDE_NANO=y" >> .config
         echo "CONFIG_FIRMWARE_INCLUDE_CURL=y" >> .config
+        echo "CONFIG_FIRMWARE_INCLUDE_JQ=y" >> .config
         
         #校园网相关结束
         #########################################################################################
